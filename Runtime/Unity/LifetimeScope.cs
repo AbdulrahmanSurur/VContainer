@@ -299,7 +299,7 @@ namespace VContainer.Unity
                 }
             }
 
-            builder.RegisterInstance<LifetimeScope>(this).AsSelf();
+            builder.RegisterInstance<LifetimeScope>(this);
             EntryPointsBuilder.EnsureDispatcherRegistered(builder);
         }
 
