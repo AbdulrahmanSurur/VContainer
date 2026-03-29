@@ -17,7 +17,7 @@ namespace VContainer.Editor.Diagnostics
         internal static bool EnableAutoReload;
         internal static bool EnableCaptureStackTrace;
 
-        [MenuItem("Sparrow//Analysis/VContainer Diagnostics")]
+        [MenuItem("Sparrow//Tools/VContainer Diagnostics")]
         public static void OpenWindow()
         {
             if (window != null)
