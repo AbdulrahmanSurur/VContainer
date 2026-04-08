@@ -9,7 +9,9 @@ namespace VContainer.Unity
         public readonly struct PrefabDirtyScope : IDisposable
         {
             readonly GameObject _prefab;
+#pragma warning disable CS0414
             readonly bool _madeDirty;
+#pragma warning restore CS0414
 
             public PrefabDirtyScope(GameObject prefab)
             {
